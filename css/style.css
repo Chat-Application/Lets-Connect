@@ -7,17 +7,29 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-    max-width: 800px;
-    padding: 0 20px;
+.headbar {
+    background-color: lightskyblue;
+    padding: 1em;
+    margin-bottom: 0.2em;
+}
+
+.structure {
+    display: grid;
+    grid-template-columns: 3fr 8fr;
+    grid-gap: 1em;
+}
+
+.contact-section {
+    background-color: lightsalmon;
+    padding: 1em;
 }
 
 .container {
     border: 2px solid #dedede;
     background-color: #f1f1f1;
     border-radius: 5px;
-    padding: 10px;
-    margin: 10px 0;
+    padding: 1em;
+    margin: 1em 0;
 }
 
 .darker {
@@ -33,15 +45,15 @@ body {
 
 .container img {
     float: left;
-    max-width: 60px;
+    max-width: 3em;
     width: 100%;
-    margin-right: 20px;
+    margin-right: 1em;
     border-radius: 50%;
 }
 
 .container img.right {
     float: right;
-    margin-left: 20px;
+    margin-left: 1em;
     margin-right: 0;
 }
 
