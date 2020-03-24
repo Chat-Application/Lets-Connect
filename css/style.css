@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 /*For mobile view*/
 
@@ -15,12 +15,47 @@
 
 .structure {
     display: grid;
-    grid-template-columns: 3fr 8fr;
+    grid-template-columns: 2fr 8fr;
     grid-gap: 1em;
 }
 
 .contact-section {
     background-color: lightsalmon;
+}
+
+.searchbox {
+    background-color: lightgrey;
+    margin-bottom: 1em;
+}
+
+.searchnav {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 0;
+    text-decoration: none;
+}
+
+.searchnav input[type=text] {
+    padding: 6px;
+    font-size: 17px;
+    border: none;
+}
+
+.search-container button {
+    padding: 6px 9px;
+    /* margin-right: 16px; */
+    background: gray;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.searchnav .search-container button:hover {
+    background: gray;
+}
+
+.contacts {
     padding: 1em;
 }
 
@@ -29,7 +64,7 @@
     background-color: #f1f1f1;
     border-radius: 5px;
     padding: 1em;
-    margin: 1em 0;
+    margin: 1em 1em;
 }
 
 .darker {
