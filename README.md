@@ -1,6 +1,6 @@
 Project members : 
 ----------------------
 1) Dimpy Vaidya (N01406287)
-2) Bhawanpreet Sidhu ()
+2) Bhawanpreet Sidhu (N01372787)
 
 
