@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Greeting from "components/Greeting";
-// import StudentRecords from "components/StudentRecords";
+import Profile from "components/Profile";
 import "./css/style.css";
 
 const App = () => {
@@ -11,7 +11,7 @@ const App = () => {
         <Greeting name="Students" />
         <h2> Just a sub heading </h2>{" "}
       </header>{" "}
-      {/* <StudentRecords /> */}
+      <Profile />
     </>
   );
 };
