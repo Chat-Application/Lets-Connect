@@ -9,7 +9,7 @@ const App = () => {
     <>
       <header>
         <Greeting name="Students" />
-        <h2> Just a sub heading </h2>{" "}
+        <h2> Let's connect in this fast paced life. </h2>{" "}
       </header>{" "}
       <Profile />
     </>
