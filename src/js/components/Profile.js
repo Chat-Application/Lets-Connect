@@ -31,7 +31,7 @@ const Profile = () => {
                 <div className="about">
                   <div className="name"> Dimpy </div>
                   <div className="status">
-                    <i className="fa fa-circle online"> </i> online
+                    <i className="fa fa-circle offline"> </i> 1 hour ago
                   </div>
                 </div>
               </li>

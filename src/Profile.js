@@ -6,7 +6,7 @@ import "/css/style.css";
 
 const Profile = () => {
   return (
-    <>
+    < >
       <aside class="others open" id="others">
         <div class="panel">
           <h2> My Contacts </h2>{" "}
@@ -173,11 +173,11 @@ const Profile = () => {
         alt = "Avatar"
         class = "right"
         style = "width:100%;" >
-        <p > Nah, not yet. < /p> <span class = "time-left" > 11: 05 AM </span> </div > <div class = "container" >
+        <p > Nah, not yet. < /p> <span class = "time-left" > 11: 05 AM </span> </div> <div class = "container" >
         <img src = { bhawan }
         alt = "Avatar"
         style = "width:100%;" >
-        <p > Why ? </p> <span class = "time-right" > 11 : 00 AM </span> </div >
+        <p > Why ? </p> <span class = "time-right" > 11 : 00 AM </span> </div>
 
         <div class = "container darker" >
         <img src = { dimpy }

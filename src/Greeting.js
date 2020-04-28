@@ -6,7 +6,7 @@ const Greeting = () => {
   return (
     <>
       <header class="branding">
-        <h1> Lets 's Connect</h1>
+        <h1> Lets's Connect</h1>
       </header>
     </>
   );
