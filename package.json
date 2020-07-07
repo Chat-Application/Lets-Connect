@@ -31,7 +31,7 @@
   "dependencies": {
     "build": "^0.1.4",
     "gh-pages": "^2.2.0",
-    "npm": "^6.14.4",
+    "npm": "^6.14.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "run-script": "^0.1.1",
